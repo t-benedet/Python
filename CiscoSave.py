@@ -46,7 +46,7 @@ output = net_connect.send_command(
     expect_string=r'Address or name of remote host [XXX.XXX.XXX]?'
     )
 
-output += net_connect.send_command('\n', expect_string=r'Destination filename [IOS/Save/Switch/config-s1.bin]?')
+output += net_connect.send_command('\n', expect_string=r'Destination filename [XXX/XXX/XXX/config-s1.bin]?')
 output += net_connect.send_command('\n', expect_string=r'#')
 
 print("")
@@ -69,7 +69,7 @@ output = net_connect.send_command(
             expect_string=r'Address or name of remote host [XXX.XXX.XXX]?'
             )
 
-output += net_connect.send_command('\n', expect_string=r'Destination filename [IOS/Save/Switch/config-s2.bin]?')
+output += net_connect.send_command('\n', expect_string=r'Destination filename [XXX/XXX/XXX/config-s2.bin]?')
 output += net_connect.send_command('\n', expect_string=r'#')
 
 print("Sauvegarde Saphire...")
@@ -93,7 +93,7 @@ output = net_connect.send_command(
             expect_string=r'Address or name of remote host [XXX.XXX.XXX]?'
             )
 
-output += net_connect.send_command('\n', expect_string=r'Destination filename [IOS/Save/Router/config-r1.bin]?')
+output += net_connect.send_command('\n', expect_string=r'Destination filename [XXX/XXX/XXX/config-r1.bin]?')
 output += net_connect.send_command('\n', expect_string=r'#')
 
 print("Sauvegarde Diamand..." )
@@ -115,7 +115,7 @@ output = net_connect.send_command(
             expect_string=r'Address or name of remote host [XXX.XXX.XXX]?'
             )
 
-output += net_connect.send_command('\n', expect_string=r'Destination filename [TEST/SAVE/config-r2.bin]?')
+output += net_connect.send_command('\n', expect_string=r'Destination filename [XXX/XXX/config-r2.bin]?')
 output += net_connect.send_command('\n', expect_string=r'#')
 
 print("Sauvegarde Emeraude..." )
